@@ -2,10 +2,7 @@ import html from "html-literal";
 export default state => html`
   <section id="jumbotron">
     <h2>SavvyCoders JavaScript Fullstack Bootcamp</h2>
-    <section id="jumbotron">
-      <h2>SavvyCoders JavaScript Fullstack Bootcamp</h2>
-      <a id="callToAction">"Call to Action" "Button"</a>
-    </section>
+    <a id="callToAction">"Call to Action" "Button"</a>
   </section>
 
   <h3>
