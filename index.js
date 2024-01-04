@@ -71,7 +71,7 @@ function afterRender(state) {
         .then(response => {
           //  Then push the new pizza onto the Pizza state pizzas attribute, so it can be displayed in the pizza list
           store.Pizza.pizzas.push(response.data);
-          router.navigate("/Pizzas");
+          router.navigate("/pizza");
         })
         // If there is an error log it to the console
         .catch(error => {
